@@ -38,6 +38,7 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
+    "commitlint-config-gitmoji": "^2.3.1",
     "concurrently": "^8.2.2",
     "conventional-changelog-conventionalcommits": "^7.0.2",
     "husky": "^9.0.11",
@@ -58,11 +59,19 @@
   ],
   "commitlint": {
     "extends": [
-      "@commitlint/config-conventional"
+      "gitmoji"
     ],
     "rules": {
       "body-max-line-length": [
         0,
+        "always"
+      ],
+      "type-empty": [
+        2,
+        "always"
+      ],
+      "subject-empty": [
+        2,
         "always"
       ]
     }
