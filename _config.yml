@@ -117,10 +117,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: GreenScreen410/GreenScreen410.github.io # <gh-username>/<repo>
+    repo_id: R_kgDOMNaqKA
+    category: General
+    category_id: DIC_kwDOMNaqKM4CgWpb
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
