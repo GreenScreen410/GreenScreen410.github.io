@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "GitHub Pages로 옮긴 이유"
 date: 2023-10-06 08:53:09 +0900
 categories: [Blogging, Tutorial]
